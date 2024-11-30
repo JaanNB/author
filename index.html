@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Name - Official Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="bg-blue-900 text-white">
+        <div class="container">
+            <h1 class="text-2xl font-bold">Author Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="hover-underline">Home</a></li>
+                    <li><a href="about.html" class="hover-underline">About</a></li>
+                    <li><a href="books.html" class="hover-underline">Books</a></li>
+                    <li><a href="contact.html" class="hover-underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="grid">
+            <div class="col-span-2">
+                <img src="images/albert.jpg" alt="Author" class="author-image">
+                <h2 class="text-3xl font-bold">Welcome to My Website</h2>
+                <p class="text-lg">
+                    I'm an author passionate about storytelling and exploring the human condition through my writing. 
+                    Here you'll find information about my books, upcoming events, and more.
+                </p>
+                <button class="btn bg-blue-600 hover-bg-blue-700">Learn More</button>
+            </div>
+            <div class="sidebar">
+                <div class="card">
+                    <h3 class="text-xl font-bold">Latest Book</h3>
+                    <img src="images/bookimage.jpg" alt="Latest Book Cover" class="book-cover">
+                    <p>
+                        "Bohemian Rhapsody" - Mamaa oohh didnt mean to make you cry, if I'm not back again this time tomorrow, carry on carry on.
+                    </p>
+                    <button class="btn btn-outline">Buy Now</button>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-bold">Upcoming Events</h3>
+                    <ul>
+                        <li>Event 1 - Cebu City, Cebu - September 11</li>
+                        <li>Event 2 - Cebu City, Cebu - September 11</li>
+                        <li>Event 3 - Cebu City, Cebu - September 11</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="text-lg font-bold">Connect</h4>
+                    <div class="social-icons">
+                        <a href="#" class="hover-text-blue-400"><i data-lucide="facebook"></i></a>
+                        <a href="#" class="hover-text-blue-400"><i data-lucide="twitter"></i></a>
+                        <a href="#" class="hover-text-blue-400"><i data-lucide="instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="text-lg font-bold">Newsletter</h4>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+                <div class="footer-section text-right">
+                    <p>&copy; 2023 Author Name. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
